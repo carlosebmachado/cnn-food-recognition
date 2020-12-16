@@ -33,6 +33,7 @@ model.load_weights('model/model.h5')
 # prepara a img
 img = image.load_img('dataset/test_images/caesar_salad/01.png',
                           target_size=(IMG_SIZE,IMG_SIZE))
+img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 test_img = image.img_to_array(img)
 if NUM_CHANNELS == 1:
     test_img=cv2.cvtColor(test_img, cv2.COLOR_BGR2GRAY)
