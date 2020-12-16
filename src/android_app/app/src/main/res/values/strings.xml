@@ -1,0 +1,30 @@
+<resources>
+    <string name="tfe_ic_app_name" translation_description="Image Classification demo app [CHAR_LIMIT=40]">Food Facts</string>
+    <string name="tfe_ic_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="tfe_ic_gpu_quant_error" translation_description="Error regarding GPU support for Quant models[CHAR_LIMIT=60]">GPU does not yet supported quantized models.</string>
+    <string name="tfe_ic_model" translatable="false">Model:</string>
+    <string-array name="tfe_ic_models" translatable="false">
+        <item>Food_Recognize_Model</item>
+        <item>Quantized_EfficientNet</item>
+        <item>Float_EfficientNet</item>
+        <item>Quantized_MobileNet</item>
+        <item>Float_MobileNet</item>
+    </string-array>
+
+    <string name="tfe_ic_device" translatable="false">Device:</string>
+    <string-array name="tfe_ic_devices" translatable="false">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+    <string name="alimentos_mais_populares">Alimentos mais populares</string>
+    <string name="batata_frita">Batata frita</string>
+    <string name="salada_caesar">Salada Caesar</string>
+    <string name="bolo_de_chocolate">Bolo de chocolate</string>
+    <string name="hamb_rguer">Hambúrguer</string>
+    <string name="dicas_de_sa_de">Dicas de saúde</string>
+    <string name="como_viver_bem">Como viver bem</string>
+    <string name="emagrecer_comendo_o_que_voc_gosta">Emagrecer comendo o que você gosta</string>
+    <string name="como_anda_a_sua_sa_de">Como anda a sua saúde?</string>
+</resources>
